@@ -1,7 +1,7 @@
-export const connect = (context, mapState, mapActions) => {
+export const connect = context => {
   const {dispatch, state: {...state}} = context;
 
-  return [
+  return (mapState, mapActions) => [
     mapState(state),
     mapActions(dispatch, state)
   ];

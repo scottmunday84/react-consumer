@@ -17,21 +17,20 @@ import {connect} from 'react-connect';
 import React, {useContext} from 'react';
 
 const Layout = () => {
-  const [props, actions] = connect(
-    useContext(store),
-    state => {
-      return {
-        foo: state.foo
-      };
-    },
-    (dispatch, state) => {
-      return {
-        dispatchFoo: payload => dispatch({type: 'ACTION_FOO', payload})
-      };
-    });
+  const mapState = state => {
+    return {
+      foo: state.foo      
+    };
+  };
+  const mapActions = (dispatch, actions) => {
+    return {
+      dispatchFoo: payload => dispatch({type: 'ACTION_FOO', payload})
+    };  
+  };
+  const [props, actions] = connect(useContext(store))(mapState, mapActions);   
     
   return (
-    <button onClick={actions.dispatchFoo({})}>Dispatch Foo</button>
+    <button onClick={actions.dispatchFoo(!props.foo)}>Dispatch Foo</button>
   );
 };
 
