@@ -7,7 +7,7 @@ A simple approach to responding from a React context.
 Install npm packages:
 
 ```
-yarn install -S scottmunday84/react-connect
+yarn install -S @scottmunday84/react-connect
 ```
 
 And to use:

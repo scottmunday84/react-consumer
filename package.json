@@ -1,5 +1,5 @@
 {
-  "name": "react-connect",
+  "name": "@scottmunday84/react-connect",
   "description": "A simple approach to responding from a React context.",
   "version": "1.0.0",
   "main": "src/lib.js",
