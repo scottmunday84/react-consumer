@@ -1,10 +1,12 @@
 {
   "name": "@scottmunday84/react-connect",
   "description": "A simple approach to responding from a React context.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "src/lib.js",
   "license": "MIT",
   "author": "Scott Munday <scottmunday84@gmail.com>",
+  "homepage": "https://github.com/scottmunday84/react-connect",
+  "url": "https://github.com/scottmunday84/react-connect/issues",
   "devDependencies": {
     "jsdoc": "^3.6.3"
   }
