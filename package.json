@@ -1,8 +1,10 @@
 {
   "name": "react-connect",
+  "description": "A simple approach to responding from a React context.",
   "version": "1.0.0",
-  "main": "lib.js",
+  "main": "src/lib.js",
   "license": "MIT",
+  "author": "Scott Munday <scottmunday84@gmail.com>",
   "devDependencies": {
     "jsdoc": "^3.6.3"
   }
