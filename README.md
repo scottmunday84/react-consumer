@@ -1,4 +1,4 @@
-# react-connect (v1.0.0)
+# react-connect [![npm version](https://badge.fury.io/js/%40scottmunday84%2Freact-connect.svg)](https://badge.fury.io/js/%40scottmunday84%2Freact-connect)
 
 A simple approach to responding from a React context.
 

@@ -1,7 +1,7 @@
 {
   "name": "@scottmunday84/react-connect",
   "description": "A simple approach to responding from a React context.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/lib.js",
   "license": "MIT",
   "author": "Scott Munday <scottmunday84@gmail.com>",
