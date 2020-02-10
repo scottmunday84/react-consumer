@@ -1,8 +1,12 @@
-export const connect = context => {
-  const {dispatch, state: {...state}} = context;
+import React, {useContext} from 'react';
 
-  return (mapState, mapActions) => [
-    mapState(state),
-    mapActions(dispatch, state)
-  ];
+const Consumer = ({store, map, children: render}) => {
+  const {dispatch: _dispatch, state} = useContext(store);
+  const dispatch = (type, payload = null) => _dispatch({type, payload});
+  const params = {state, dispatch};
+  const result = map === undefined ? params : map(params);
+
+  return render(result);
 };
+
+export default Consumer;

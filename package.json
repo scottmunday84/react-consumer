@@ -1,12 +1,15 @@
 {
-  "name": "@scottmunday84/react-connect",
-  "description": "A simple approach to responding from a React context.",
-  "version": "1.0.3",
+  "name": "@scottmunday84/react-consumer",
+  "description": "A simple approach to responding from a React context through a quick consumer.",
+  "version": "1.0.0",
   "main": "src/lib.js",
   "license": "MIT",
   "author": "Scott Munday <scottmunday84@gmail.com>",
-  "homepage": "https://github.com/scottmunday84/react-connect",
-  "url": "https://github.com/scottmunday84/react-connect/issues",
+  "homepage": "https://github.com/scottmunday84/react-consumer",
+  "url": "https://github.com/scottmunday84/react-consumer/issues",
+  "dependencies": {
+    "react": "^16.12.0"
+  },
   "devDependencies": {
     "jsdoc": "^3.6.3"
   }
