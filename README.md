@@ -1,4 +1,4 @@
-# react-connect [![npm version](https://badge.fury.io/js/%40scottmunday84%2Freact-consumer.svg)](https://badge.fury.io/js/%40scottmunday84%2Freact-consumer)
+# react-consumer [![npm version](https://badge.fury.io/js/%40scottmunday84%2Freact-consumer.svg)](https://badge.fury.io/js/%40scottmunday84%2Freact-consumer)
 
 A simple approach to responding from a React context through a quick consumer.
 
