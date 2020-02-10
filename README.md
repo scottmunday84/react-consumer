@@ -26,7 +26,7 @@ const Layout = () => {
     
   return (
     <Consumer store={store} map={map}>
-      {({foo, dispatchFoo}) => <button onClick={dispatchFoo(!foo)}>Dispatch Foo</button>}
+      {({foo, dispatchFoo}) => <button onClick={() => dispatchFoo(!foo)}>Dispatch Foo</button>}
     </Consumer>);
 };
 
